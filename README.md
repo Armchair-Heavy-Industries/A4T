@@ -94,11 +94,11 @@ You're printing a toolhead, not a trinket or a toy. You should be aiming for hig
 | Put the 2510 HE fan in place. <br/>`It will need to be angled in, slightly top first. The wires should be exiting from the top`   | <img src='docs/images/2510_install1.png' width=150> |
 | Lock the 2510 HE fan in place by sliding the HE fan duct up until the flexture locks. `Careful, don't pinch any wires`| <img src='docs/images/2510_install2.png' width=150> |
 | Tidy up the LED harness wires in the little hooks. `the left blower fan will lock them in soon`                       | <img src='docs/images/LED_wires1.png' width=150> |
-| ***Install the 4010 inserts***                                                                                        |       |
+| ***Install the 4010*** ~~inserts~~ ***backflow inhibitors***                                                                                        |       |
 | &nbsp; &nbsp; &nbsp;1. take the front cover off the 4010 blower fan<br/>`This is easy on gdstime fans. Might not be possible on Delta fans`  | <img src='docs/images/4010_remove_front.png' width=150> |
-| &nbsp; &nbsp; &nbsp;2. Use some superglue or acetone to glue the insert in place<br/>`Use the spacer to line it up properly`                 | <img src='docs/images/glue_4010_insert.png' width=150><img src='docs/images/4010_insert_top.png' width=70> |
+| &nbsp; &nbsp; &nbsp;2. Use some superglue or acetone to glue the ~~insert~~ ***backflow inhibitor*** in place<br/>`Use the spacer to line it up properly`                 | <img src='docs/images/glue_4010_insert.png' width=150><img src='docs/images/4010_insert_top.png' width=70> |
 | &nbsp; &nbsp; &nbsp;3. Put the front cover back on the fan                                                            | <img src='docs/images/4010_insert_cover.png' width=150> |
-| &nbsp; &nbsp; &nbsp;4. Remove the little handle and sand/file the insert flush with the blower opening                | <img src='docs/images/4010_insert_flush.png' width=150> |
+| &nbsp; &nbsp; &nbsp;4. Remove the little handle and sand/file the ~~insert~~ ***backflow inhibitor*** flush with the blower opening                | <img src='docs/images/4010_insert_flush.png' width=150> |
 | Time to put the blower fans in `Slide them into each side with the opening at the bottom`                             | <img src='docs/images/install_4010s.png' width=150> |
 | Attach your hotend                                                                                                    | <img src='docs/images/install_hotend.png' width=150> |
 | Put all the square nuts in their places for later                                                                     | <img src='docs/images/install_square_nuts.png' width=150> |
@@ -130,7 +130,7 @@ You're printing a toolhead, not a trinket or a toy. You should be aiming for hig
 After six months of development, CAD, CFD, trial and lots of error. Finally, A4T has better IS results, better cooling results and a new look compared to what I have been doing the last few years.
 
 This is a comparison of part cooling between Xol and A4T. 
-These prints were completed on the same printer, with the same gcode, same filament, the same hotend and part cooling fans (inserts installed for A4T test).
+These prints were completed on the same printer, with the same gcode, same filament, the same hotend and part cooling fans (~~inserts~~ ***backflow inhibitors*** installed for A4T test).
 ![Comparison](docs/images/shuriken.png)
 
 ![CFG](docs/images/cfd.png)
@@ -139,6 +139,7 @@ These prints were completed on the same printer, with the same gcode, same filam
 * Huge thanks for the support from the AHI team.
 * Also to the Crew/Contributors at Voron Design
 * Big shoutout to [yellowfish543](https://github.com/yellowfish543/StdToolheadOpenfoam/) for the CFD insights that unlocked the potential of this design.
+* weaslus for insisting that the 4010 inserts get renamed to "backflow inhibitors"
 
 > [!TIP] 
 > ### You can help support the development of Armchair Projects.<br/>

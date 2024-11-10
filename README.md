@@ -29,9 +29,14 @@ To avoid build plate area loss:
 
 See Voron Design instructions to install TAP.<br/>
 `If using tap, highly recommended to replace M3x50 SHCS with button head screws for better build plate clearance.`<br/>
-<br/>
-Xol-Carriage documentation is here: https://github.com/Armchair-Heavy-Industries/Xol-Toolhead/blob/main/docs/xol_carriage_assembly.md<br/>
-`Monolith Gantry users should go with the Monolith specific Xol-Carriage mod:` [Monolith_Xol-Carriage](https://github.com/Armchair-Heavy-Industries/Armchair-Usermods/tree/main/files/Xol-Toolhead/Monolith_Xol-Carriage)<br/>
+
+> [!NOTE] 
+> ### Notes for Xol-Carriage<br/>
+> * Xol-Carriage documentation is here: https://github.com/Armchair-Heavy-Industries/Xol-Toolhead/blob/main/docs/xol_carriage_assembly.md<br/>
+> * A4T uses standard length probe modules for Xol-Carriage (not UHF).<br/>
+> * Monolith Gantry users should go with the Monolith specific Xol-Carriage mod: [Monolith_Xol-Carriage](https://github.com/Armchair-Heavy-Industries/Armchair-Usermods/tree/main/files/Xol-Toolhead/Monolith_Xol-Carriage)<br/>
+
+<br/><br/>
 
 > [!WARNING]
 > ### Front Idlers  

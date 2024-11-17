@@ -13,10 +13,10 @@ After the last year or two looking after Xol and transforming it into Xol Toolhe
 
 A4T is built around the following constraints:
 * Dual 4010 blower fans for part cooling
-* HF hotends (designed around Dragon HF with an extender, so Rapido HF will also fit).
+* HF and some UHF hotends (origonally designed around Dragon HF with an extender).
 * 2510 hotend cooling with well-directed hotend cooling airflow. (Can't beat the amazing 5v Delta 2510)
 * ***Easy Assembly***
-* Custom Wrist Watch BMG mod with Sherpa-Mini spacing. Also works with Sherpa-Mini.
+* Custom Wrist Watch BMG mod with Sherpa-Mini spacing. Also works with Sherpa-Mini. (Some WWG2 and oribter options now too)
 * Neopixel LEDs with good part lighting from in front of the nozzle.
 * Built for Xol-Carriage - can work with Voron Tap / Standard Voron CW2 carriage.
 
@@ -33,7 +33,7 @@ See Voron Design instructions to install TAP.<br/>
 > [!NOTE] 
 > ### Notes for Xol-Carriage<br/>
 > * Xol-Carriage documentation is here: https://github.com/Armchair-Heavy-Industries/Xol-Toolhead/blob/main/docs/xol_carriage_assembly.md<br/>
-> * A4T uses standard length probe modules for Xol-Carriage (not UHF).<br/>
+> * A4T uses standard length probe modules for Xol-Carriage (even with UFH hotends in A4T).<br/>
 > * Monolith Gantry users should go with the Monolith specific Xol-Carriage mod: [Monolith_Xol-Carriage](https://github.com/Armchair-Heavy-Industries/Armchair-Usermods/tree/main/files/Xol-Toolhead/Monolith_Xol-Carriage)<br/>
 
 <br/><br/>
@@ -61,9 +61,9 @@ See Voron Design instructions to install TAP.<br/>
 | 3   | Neopixel LED PCB                              | The same kind as used in Stealthburner. Get the solder pad version. <br/> `Wiring diagram (click to enlarge) ---->`  <img src='docs/images/LED_wiring_order.jpg' width=60 alt="LEDs" align='right'>                      |
 | 9   | Lengths of 28 AWG or 26 AWG wire              | To make the LED harness      |
 | 1   | Connector and required crimps                 | To make the LED harness      |
-| 1   | Hotend                                        | Recommended hotend:<br/>*  **Dragon HF** with **Triangle Lab ZS-MZE-HF** (<a href="https://www.aliexpress.com/item/1005006402646093.html">Ali Express</a>)<img src='docs/images/DragonHF+MZE.png' width=120 alt="Dragon" align='right'> <br/> Alternatives: <br/>* Dragon UHF-Mini <br/>* Dragon Ace (with spacer, no MZE)<br/>* Rapido HF<br/>* NF-Crazy with MZE<br/>* NF-Crazy Volcano <br/><img src='docs/images/other_hotends.png' width=280 alt="hotends" align='right'>        |
+| 1   | Hotend                                        | Recommended hotend:<br/>*  **Dragon HF** with **Triangle Lab ZS-MZE-HF** (<a href="https://www.aliexpress.com/item/1005006402646093.html">Ali Express</a>)<img src='docs/images/DragonHF+MZE.png' width=120 alt="Dragon" align='right'> <br/> Alternatives: <br/>* Dragon UHF or UHF-Mini <br/>* Dragon Ace<br/>* Rapido HF or UHF<br/>* NF-Crazy with MZE<br/>* NF-Crazy Volcano        |
 | 4   | Hotend screws                                 | Should come with your hotend. Dragon/Rapido usually use M2.5 x 8mm SHCS                   |
-| 1   | Extruder                                      | Recommended Extruder:<br/>* Modified WW-BMG with Bondtech RIDGA v2. ([STLs here](STL))<br/> Alternatives: <br/>*Sherpa-Mini  <br/>*VZ-Hextrudort-Low <br/>*LGX-Lite <br/>*E3D Roto Vitamins   |
+| 1   | Extruder                                      | Recommended Extruder:<br/>* Modified WW-BMG with Bondtech RIDGA v2. ([STLs here](STL))<br/> Alternatives: <br/>*Sherpa-Mini  <br/>*VZ-Hextrudort-Low <br/>*LGX-Lite <br/>*E3D Roto Vitamins <br/>*Wrist-Watch G2 <br/>*Orbiter 2.0 <br/> <br/>`⚠️ Sherpa-Mini not supported with UHF hotends`   |
 | 2   | M3 threaded heat insert                       | Standard Voron spec: M3 x 5 x 4                                                           |
 | 2   | 20mm or 21mm 3mm internal threaded stand off  | To attach toolhead board to the back of the extruder motor and third mounting point on the back of Xol Carriage. <br/>`Length will depend on the motor you use. It needs to line up the toolhead board holder with the back of the Xol Carriage.`                   |
 
@@ -112,9 +112,9 @@ You're printing a toolhead, not a trinket or a toy. You should be aiming for hig
 | ***Main cowl is ready, time for the extruder***                                                                       |       |
 | Make sure you used long enough screws to hold your stepper motor to the extruder and install the 20mm standoffs behind the motor                         | <img src='docs/images/Extruder_standoffs.png' width=150> |
 | Attach the toolhead board mount and toolhead board to the standoffs `THB mounts, except for Sherpa-Mini, need 2x M3 heatsets installed before this step` | <img src='docs/images/Extruder_standoffs_thb.png' width=150> <img src='docs/images/Extruder_standoffs_thb_pcb.png' width=150>  |
-| Put the Extruder Adapter in place on top of the cowl `*Not used for Sherpa-Mini` <br/>`⚠️ Don't forget the PTFE tube between extruder and hotend`        | <img src='docs/images/extruder_adapter.png' width=150> |
+| Put the Extruder Adapter in place on top of the cowl<br/>`*Not used with Sherpa-Mini or on UHF hotend cowls` <br/><br/>`⚠️ Don't forget the PTFE tube between extruder and hotend`        | <img src='docs/images/extruder_adapter.png' width=150> |
 | :information_source: **Clockwork2 carriage/Tap users**: Don't forget the 2x M3x8 SHCS that go behind the adapter      | <img src='docs/images/extruder_adapter_cw2.png' width=150> |
-| Attach the extruder to the main cowl                                                                                  | <img src='docs/images/attach_extruder.png' width=150> |
+| Attach the extruder to the main cowl <br/><br/>`⚠️ If using G2/Orbiter UHF cowl, the right screw for the extruder has to wait until the end.`  | <img src='docs/images/attach_extruder.png' width=150> |
 | Time to wire it all up                                                                                                | <img src='docs/images/wired_up.png' width=150> |
 | &nbsp; &nbsp; &nbsp;Make sure to keep wires out of the carriage screw keep clear zone                                 | <img src='docs/images/wire_keep_out_area.png' width=150> |
 | &nbsp; &nbsp; &nbsp;Use the cable tie slots to keep everything tidy                                                   | <img src='docs/images/cable_tie_slots.png' width=150> |

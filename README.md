@@ -81,7 +81,8 @@ You're printing a toolhead, not a trinket or a toy. You should be aiming for hig
 ## Assembly
 ### LED Harness (optional)
 (click to open full size image)<br/>
-<img src='docs/images/LED_wiring_order.jpg' width=250 alt="LED Harness">
+<img src='docs/images/LED_wiring_order.jpg' width=250 alt="LED Harness"><br/>
+Skinny wire needed, read the BOM.
 
 ### Assembly Steps
 

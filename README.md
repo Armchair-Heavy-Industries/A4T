@@ -78,6 +78,13 @@ The print setup was tested with 0.5mm nozzle printing 0.55mm line widths with 3 
 
 You're printing a toolhead, not a trinket or a toy. You should be aiming for high strength with strong layer adhesion. I.e. print it slower/hotter if you have bad layer adhesion. It doesn't matter if it takes over 2 hours to print the main body.<br/>
 
+> [!WARNING]
+> ### Blower fan fit  
+> `If your blower fans are not a slight friction fit, you likely had shrinkage compensation or EM issues. You can probably get away with using some masking tape on top of a loose fan to save a reprint in a pinch.` <br/>
+> <br/>
+> Fans should go in with a slight friction fit. DO NOT FORCE THEM IN. Your print settings aren't right if the fans are too tight. More shrinkage compensation or less EM depending on if you're over extruding or not.
+
+
 ## Assembly
 ### LED Harness (optional)
 (click to open full size image)<br/>
@@ -105,7 +112,7 @@ Skinny wire needed, read the BOM.
 | &nbsp; &nbsp; &nbsp;2. Use some superglue or acetone to glue the ~~insert~~ ***backflow inhibitor*** in place<br/>`Use the spacer to line it up properly`                 | <img src='docs/images/glue_4010_insert.png' width=150><img src='docs/images/4010_insert_top.png' width=70> |
 | &nbsp; &nbsp; &nbsp;3. Put the front cover back on the fan                                                            | <img src='docs/images/4010_insert_cover.png' width=150> |
 | &nbsp; &nbsp; &nbsp;4. Remove the little handle and sand/file the ~~insert~~ ***backflow inhibitor*** flush with the blower opening                | <img src='docs/images/4010_insert_flush.png' width=150> |
-| Time to put the blower fans in `Slide them into each side with the opening at the bottom`                             | <img src='docs/images/install_4010s.png' width=150> |
+| Time to put the blower fans in `Slide them into each side with the opening at the bottom`  <br/><br/>`*Fans should go in with a slight friction fit. DO NOT FORCE THEM IN. Your print settings aren't right if the fans are too tight. More shrinkage compensation or less EM depending on if you're over extruding or not.`                           | <img src='docs/images/install_4010s.png' width=150> |
 | Attach your hotend                                                                                                    | <img src='docs/images/install_hotend.png' width=150> |
 | Put all the square nuts in their places for later                                                                     | <img src='docs/images/install_square_nuts.png' width=150> |
 | &nbsp; &nbsp; &nbsp;* Two under the extruder mounting points                                                          | <img src='docs/images/install_square_nuts_ext.png' width=150> |
@@ -126,9 +133,6 @@ Skinny wire needed, read the BOM.
 | Tighten up all the screws:<br/>* 2x M3x50 bottom screws<br/>* 2x screws that were already in the carriage `access via the driver holes`<br/>* 2x M3x8 top screws<br/>&nbsp; &nbsp; &nbsp;** From the front for CW2/Tap<br/>&nbsp; &nbsp; &nbsp;** From the back for Xol Carriage<br/>* 1x M3x8 under the toolhead board (Xol Carriage only)                            |  <img src='docs/images/final_screws_front.png' width=150>  <img src='docs/images/final_screws_back.png' width=150>       |
 | Remember to hook up your probe wires from the carriage to the toolhead board, if you're using one. <br/>`and your endstop wires if you haven't figured out sensorless yet`         |       |
 | Make sure you double check your software setup `especially endstop location`                                          |       |
-> [!WARNING]
-> ### Blower fan fit  
-> `If your blower fans are not a snug fit, you likely had shrinkage compensation or EM issues. You can probably get away with using some masking tape on top of a loose fan to save a reprint in a pinch.`
 
 <br>
 

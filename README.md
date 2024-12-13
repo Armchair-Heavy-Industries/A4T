@@ -101,7 +101,7 @@ Skinny wire needed, read the BOM.
 | Put the Status LED into the LED carrier <br/>`the one closest to the connector`                                       | <img src='docs/images/LED1_in_carrier.png' width=150> |
 | Install the LED harness into the Cowl                                                                                 |       |
 | &nbsp; &nbsp; &nbsp;1. Thread the two nozzle LEDs through the holder part of the cowl from the top and out the bottom | <img src='docs/images/LEDs_into_cowl1.png' width=150><img src='docs/images/LEDs_into_cowl2.png' width=150> |
-| &nbsp; &nbsp; &nbsp;2. Install the middle LED of the chain into it's slot <br/><br/> `If the LEDs are tight to insert, run a small flat heat screwdriver along the edges of the LED slots to open them up a bit.`                                            | <img src='docs/images/LEDs_into_cowl3.png' width=150> |
+| &nbsp; &nbsp; &nbsp;2. Install the middle LED of the chain into it's slot <br/><br/> `If the LEDs are tight to insert, run a small flat head screwdriver along the edges of the LED slots to open them up a bit.`                                            | <img src='docs/images/LEDs_into_cowl3.png' width=150> |
 | &nbsp; &nbsp; &nbsp;3. Put the last LED into the other slot                                                           | <img src='docs/images/LEDs_into_cowl4.png' width=150> |
 | &nbsp; &nbsp; &nbsp;4. The wires between the 2nd and 3rd LED go back up over the top of the Status LED holder         | <img src='docs/images/LEDs_into_cowl5.png' width=150> |
 | Put the 2510 HE fan in place. <br/>`It will need to be angled in, slightly top first. The wires should be exiting from the top`   | <img src='docs/images/2510_install1.png' width=150> |

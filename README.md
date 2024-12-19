@@ -13,7 +13,7 @@ After the last year or two looking after Xol and transforming it into Xol Toolhe
 
 A4T is built around the following constraints:
 * Dual 4010 blower fans for part cooling
-* HF and some UHF hotends (origonally designed around Dragon HF with an extender).
+* HF and some UHF hotends (originally designed around Dragon HF with an extender).
 * 2510 hotend cooling with well-directed hotend cooling airflow. (Can't beat the amazing 5v Delta 2510)
 * ***Easy Assembly***
 * Custom Wrist Watch BMG mod with Sherpa-Mini spacing. Also works with Sherpa-Mini. (Some WWG2 and oribter options now too)

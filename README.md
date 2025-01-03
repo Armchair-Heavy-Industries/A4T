@@ -33,7 +33,7 @@ See Voron Design instructions to install TAP.<br/>
 > [!NOTE] 
 > ### Notes for Xol-Carriage<br/>
 > * Xol-Carriage documentation is here: https://github.com/Armchair-Heavy-Industries/Xol-Toolhead/blob/main/docs/xol_carriage_assembly.md<br/>
-> * A4T uses standard length probe modules for Xol-Carriage (even with UFH hotends in A4T).<br/>
+> * A4T uses standard length probe modules for Xol-Carriage (even with UHF hotends in A4T).<br/>
 > * Monolith Gantry users should go with the Monolith specific Xol-Carriage mod: [Monolith_Xol-Carriage](https://github.com/Armchair-Heavy-Industries/Armchair-Usermods/tree/main/files/Xol-Toolhead/Monolith_Xol-Carriage)<br/>
 
 <br/><br/>

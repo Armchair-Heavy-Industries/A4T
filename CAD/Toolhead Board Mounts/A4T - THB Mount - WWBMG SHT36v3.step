@@ -15,11 +15,11 @@ cturing Information (PMI)---4.0---2014-10-13',
 
 FILE_NAME(
 /* name */ 'A4T - THB Mount - WWBMG SHT36v3',
-/* time_stamp */ '2024-12-16T09:34:18Z',
+/* time_stamp */ '2025-01-12T06:32:01Z',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
-/* originating_system */ 'ONSHAPE BY PTC INC, 1.191',
+/* originating_system */ 'ONSHAPE BY PTC INC, 1.192',
 /* authorisation */ '  ');
 
 FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }'));

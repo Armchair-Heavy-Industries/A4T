@@ -14,12 +14,12 @@ cturing Information (PMI)---4.0---2014-10-13',
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '67674342aea73145fe620ec1',
-/* time_stamp */ '2024-12-21T22:37:55Z',
+/* name */ 'A4T - Dragon Ace Spacer',
+/* time_stamp */ '2025-01-12T06:31:59Z',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
-/* originating_system */ 'ONSHAPE BY PTC INC, 1.191',
+/* originating_system */ 'ONSHAPE BY PTC INC, 1.192',
 /* authorisation */ '  ');
 
 FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }'));

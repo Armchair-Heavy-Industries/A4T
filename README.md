@@ -1,6 +1,6 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-# A4T: [A]nother [4]010 [T]oolhead (BETA)
+# A4T: [A]nother [4]010 [T]oolhead
 An Armchair toolhead from: [![ko-fi](docs/images/Ko-fi_smol.png)](https://ko-fi.com/O5O5OCC0K) [DW-Tas](https://github.com/DW-Tas)
 
 [![Join me on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/armchairengineeringsux)
@@ -61,7 +61,7 @@ See Voron Design instructions to install TAP.<br/>
 | 3   | Neopixel LED PCB                              | The same kind as used in Stealthburner. Get the solder pad version. <br/> `Wiring diagram (click to enlarge) ---->`  <img src='docs/images/LED_wiring_order.jpg' width=60 alt="LEDs" align='right'>  <br/>`Different length wires for different Cowling types`                    |
 | 9   | Lengths of 28 AWG or 26 AWG wire              | To make the LED harness      |
 | 1   | Connector and required crimps                 | To make the LED harness      |
-| 1   | Hotend                                        | Recommended hotend:<br/>*  **Dragon HF** with **Triangle Lab ZS-MZE-HF** (<a href="https://trianglelab.net/products/zs%C2%AE-mze%E2%84%A2-melt-zone-extender?VariantsId=11381">trianglelab.net</a>)<img src='docs/images/DragonHF+MZE.png' width=120 alt="Dragon" align='right'> <br/> Alternatives: <br/>* Dragon UHF or UHF-Mini <br/>* Dragon Ace <br/>* Dragon Ace with MZE<br/>* Rapido HF or UHF<br/>* NF-Crazy Volcano `May melt plastic behind status LED without tape insulation` <br/>* Revo-Voron<br/>* Bambulab       |
+| 1   | Hotend                                        | Recommended hotend:<br/>*  **Dragon HF** with **Triangle Lab ZS-MZE-HF** (<a href="https://trianglelab.net/products/zs%C2%AE-mze%E2%84%A2-melt-zone-extender?VariantsId=11381">trianglelab.net</a>)<img src='docs/images/DragonHF+MZE.png' width=120 alt="Dragon" align='right'> <br/> Alternatives: <br/>* Dragon UHF or UHF-Mini <br/>* Dragon Ace <br/>* Dragon Ace with MZE<br/>* Rapido HF or UHF<br/>* NF-Crazy Volcano `May melt plastic behind status LED without tape insulation` <br/>* Revo-Voron<br/>* Bambulab <br/><br/>`volcano blocks with oversize heater cartridges may require some insulation tape (aluminium/reflective) on the back of the LED housing that faces the hotend.`      |
 | 4   | Hotend screws                                 | Should come with your hotend. Dragon/Rapido usually use M2.5 x 8mm SHCS                   |
 | 1   | Extruder                                      | Recommended Extruder:<br/>* Modified WW-BMG with Bondtech RIDGA v2. ([3mf files here](3mf/WW-BMG%20for%20A4T/))<br/> Alternatives: <br/>*Sherpa-Mini  <br/>*VZ-Hextrudort-Low <br/>*LGX-Lite <br/>*E3D Roto Vitamins <br/>*Wrist-Watch G2 <br/>*Orbiter 2.0 <br/> <br/>`⚠️ Sherpa-Mini not supported with UHF hotends`   |
 | 2   | M3 threaded heat insert                       | Standard Voron spec: M3 x 5 x 4                                                           |

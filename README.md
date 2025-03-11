@@ -104,7 +104,7 @@ Skinny wire needed, read the BOM.
 | &nbsp; &nbsp; &nbsp;2. Install the middle LED of the chain into it's slot <br/><br/> `If the LEDs are tight to insert, run a small flat head screwdriver along the edges of the LED slots to open them up a bit.`                                            | <img src='docs/images/LEDs_into_cowl3.png' width=150> |
 | &nbsp; &nbsp; &nbsp;3. Put the last LED into the other slot                                                           | <img src='docs/images/LEDs_into_cowl4.png' width=150> |
 | &nbsp; &nbsp; &nbsp;4. The wires between the 2nd and 3rd LED go back up over the top of the Status LED holder         | <img src='docs/images/LEDs_into_cowl5.png' width=150> |
-| Put the 2510 HE fan in place. <br/>`It will need to be angled in, slightly top first. The wires should be exiting from the top`   | <img src='docs/images/2510_install1.png' width=150> |
+| Put the 2510 HE fan in place. <br/>`It will need to be angled in, slightly top first. The wires should be exiting from the top` <br/><br/> `⚠️ Don't push on the hub of the fan 😢` <img src='docs/images/warn2510.png' width=80 align=top> | <img src='docs/images/2510_install1.png' width=150> |
 | Lock the 2510 HE fan in place by sliding the HE fan duct up until the flexture locks. `Careful, don't pinch any wires`| <img src='docs/images/2510_install2.png' width=150> |
 | Tidy up the LED harness wires in the little hooks. `the left blower fan will lock them in soon`                       | <img src='docs/images/LED_wires1.png' width=150> |
 | ***Install the 4010*** ~~inserts~~ ***backflow inhibitors***                                                                                        |       |

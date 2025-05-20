@@ -152,7 +152,7 @@ These prints were completed on the same printer, with the same gcode, same filam
 ![CFG](docs/images/cfd.png)
 
 ### Credits
-* Crew/Contributors at Voron Design
+* The helpful Crew and Contributors at Voron Design
 * Big shoutout to [yellowfish543](https://github.com/yellowfish543/StdToolheadOpenfoam/) for the CFD insights that unlocked the potential of this design.
 * weaslus for insisting that the 4010 inserts get renamed to "backflow inhibitors"
 * Corunir for the configurator wizard

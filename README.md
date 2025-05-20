@@ -78,6 +78,12 @@ The print setup was tested with 0.5mm nozzle printing 0.55mm line widths with 3 
 
 You're printing a toolhead, not a trinket or a toy. You should be aiming for high strength with strong layer adhesion. I.e. print it slower/hotter if you have bad layer adhesion. It doesn't matter if it takes over 2 hours to print the main body.<br/>
 
+> [!TIP] 
+> ### Printed Parts Configurator<br/>
+> A great way to understand which files to print is by using this amazing configurator from **Corunir**: <a href="https://a4t.wizards-enclave.net/">https://a4t.wizards-enclave.net/</a>
+
+<br/><br/><br/><br/>
+
 > [!WARNING]
 > ### Blower fan fit  
 > `If your blower fans are not a slight friction fit, you likely had shrinkage compensation or EM issues. You can probably get away with using some masking tape on top of a loose fan to save a reprint in a pinch.` <br/>
@@ -150,6 +156,7 @@ These prints were completed on the same printer, with the same gcode, same filam
 * Also to the Crew/Contributors at Voron Design
 * Big shoutout to [yellowfish543](https://github.com/yellowfish543/StdToolheadOpenfoam/) for the CFD insights that unlocked the potential of this design.
 * weaslus for insisting that the 4010 inserts get renamed to "backflow inhibitors"
+* Corunir for the configurator wizard
 
 > [!TIP] 
 > ### You can help support the development of Armchair Projects.<br/>

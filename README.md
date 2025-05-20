@@ -80,7 +80,7 @@ You're printing a toolhead, not a trinket or a toy. You should be aiming for hig
 
 > [!TIP] 
 > ### Printed Parts Configurator<br/>
-> A great way to understand which files to print is by using this amazing configurator from **Corunir**: <a href="https://a4t.wizards-enclave.net/">https://a4t.wizards-enclave.net/</a>
+> A great way to understand which files to print is by using this amazing configurator from <a href="https://github.com/Corunir">Corunir</a>: <a href="https://a4t.wizards-enclave.net/">https://a4t.wizards-enclave.net/</a>
 
 <br/><br/><br/><br/>
 
@@ -152,8 +152,7 @@ These prints were completed on the same printer, with the same gcode, same filam
 ![CFG](docs/images/cfd.png)
 
 ### Credits
-* Huge thanks for the support from the AHI team.
-* Also to the Crew/Contributors at Voron Design
+* Crew/Contributors at Voron Design
 * Big shoutout to [yellowfish543](https://github.com/yellowfish543/StdToolheadOpenfoam/) for the CFD insights that unlocked the potential of this design.
 * weaslus for insisting that the 4010 inserts get renamed to "backflow inhibitors"
 * Corunir for the configurator wizard

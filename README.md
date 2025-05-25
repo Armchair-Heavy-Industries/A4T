@@ -21,7 +21,7 @@ A4T is built around the following constraints:
 * Built for Xol-Carriage - can work with Voron Tap / Standard Voron CW2 carriage.
 
 ## Pre-requisites
-A printer that fits either Xol carriage, or a standard voron CW2 or Tap carriage.<br/>
+A printer that fits either Xol carriage, or a standard voron CW2 or Tap carriage. `NOT cartographer CNC carriage (see warning below)`<br/>
 <br/>
 To avoid build plate area loss:
 - X/Y gantry joints that are within the same size as standard Voron 2.4 or Trident X/Y joints.
@@ -44,6 +44,12 @@ See Voron Design instructions to install TAP.<br/>
 > Fully compatible idlers:<br/>
 > * clee's [BFI (Beefy Front Idlers)](https://github.com/clee/VoronBFI)  <br/>
 > * Ramalama2's [Front Idlers](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers)  
+
+<br/><br/>
+
+> [!WARNING]
+> ### Cartographer CNC carriage  
+> The Cartographer CNC carriage is made for StealthBurner, not A4T. The probe will sit too low if used with A4T unless you have the tools and skill necessary to remove ~1.8mm off the bottom mounting points where the probe attaches.
 
 <br/>
 

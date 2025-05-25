@@ -49,7 +49,7 @@ See Voron Design instructions to install TAP.<br/>
 
 > [!WARNING]
 > ### Cartographer CNC carriage  
-> The Cartographer CNC carriage is made for StealthBurner, not A4T. The probe will sit too low if used with A4T unless you have the tools and skill necessary to remove ~1.8mm off the bottom mounting points where the probe attaches.
+> The Cartographer CNC carriage is made for StealthBurner, not A4T. The probe will sit too low if used with A4T unless you have the tools and skill necessary to remove ~1.8mm off the bottom of the Cartographer CNC carriage mounting points where the probe attaches.
 
 <br/>
 

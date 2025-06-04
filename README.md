@@ -3,7 +3,7 @@
 # A4T: [A]nother [4]010 [T]oolhead
 A Toolhead from: [![ko-fi](docs/images/Ko-fi_smol.png)](https://ko-fi.com/O5O5OCC0K) [DW-Tas](https://github.com/DW-Tas)
 
-[![Join me on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/armchairengineeringsux)
+[![Join me on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/NHbrD2AgW6)
 
 <img src='docs/images/A4T_render.png' width=800 />
 

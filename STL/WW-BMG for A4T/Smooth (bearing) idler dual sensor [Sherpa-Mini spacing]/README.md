@@ -61,7 +61,8 @@ The built-in supports are anchored in **three places**:
 
 The rest of the extruder assembly remains unchanged from the baseline WWBMG design.
 
-![IMG_6269](https://github.com/user-attachments/assets/3832c070-c786-4e33-89fe-8cdb60fba882)
+![IMG_6268](https://github.com/user-attachments/assets/87bba57e-211b-48a9-8bc9-223df750efe3)
+
 
 ---
 

@@ -2,6 +2,8 @@
 
 This version of the WWBMG uses a bearing instead of the toothed secondary drive gear. It is primarily aimed at **reducing potential extrusion consistency artefacts** caused by slight system misalignments. Together with a Bondtech IDGA gear assembly, it helps mitigate extrusion deviations that can appear as inconsistent layer stacking on outer walls.
 
+![IMG_6269](https://github.com/user-attachments/assets/c03596f7-6137-4dd8-81d7-a0ae45402238)
+
 ---
 
 ## Printed Parts
@@ -46,6 +48,8 @@ The built-in supports are anchored in **three places**:
 
 ⚠️ **Warning:** Be careful not to break off the *printed* bearing standoffs!
 
+![IMG_6267](https://github.com/user-attachments/assets/30d1a09b-187c-461d-9364-0b56dbf5f044)
+
 ---
 
 ### Assembly
@@ -56,6 +60,8 @@ The built-in supports are anchored in **three places**:
 4. There should be slight play in the bearing (up/down and side-to-side) — this is **intentional** to allow the idler to self-center on the filament path.
 
 The rest of the extruder assembly remains unchanged from the baseline WWBMG design.
+
+![IMG_6269](https://github.com/user-attachments/assets/3832c070-c786-4e33-89fe-8cdb60fba882)
 
 ---
 

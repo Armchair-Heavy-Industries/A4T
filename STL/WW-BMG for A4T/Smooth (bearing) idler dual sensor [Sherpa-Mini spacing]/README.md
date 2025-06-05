@@ -22,7 +22,7 @@ Use the same settings as the **A4T toolhead**.
 ## Bill of Materials (BOM)
 
 - 1x M3x16 SHCS screw
-- 1x Bondtech RIDGA, its mounting bearings and tensioning thumbscrew and spring
+- 1x Bondtech RIDGA (optional but highly recommended), its mounting bearings and tensioning thumbscrew and spring
 - 1x 693ZZ bearing
   Make sure the bearing dimensions are:
   - **8 mm OD**

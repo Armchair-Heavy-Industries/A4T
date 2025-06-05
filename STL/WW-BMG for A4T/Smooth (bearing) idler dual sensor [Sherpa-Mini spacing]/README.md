@@ -1,10 +1,9 @@
 # A dual filament sensor, smooth (bearing) idler WWBMG
 
-This version of the WWBMG uses a bearing instead of the toothed secondary drive gear. It is primarily aimed at **reducing potential extrusion consistency artefacts** caused by slight system misalignments. Together with a Bondtech IDGA gear assembly, it helps mitigate extrusion deviations that can appear as inconsistent layer stacking on outer walls.
+This version of the WWBMG uses a bearing instead of the toothed secondary drive gear. It is primarily aimed at **reducing potential extrusion consistency artefacts** caused by slight system misalignments. Together with a Bondtech RIDGA gear assembly, it helps mitigate extrusion deviations that can appear as inconsistent layer stacking on outer walls.
 
 ![IMG_6269](https://github.com/user-attachments/assets/c03596f7-6137-4dd8-81d7-a0ae45402238)
 
----
 
 ## Printed Parts
 
@@ -19,18 +18,17 @@ Use the same settings as the **A4T toolhead**.
   - Reduce print speed
   - Tweak shrinkage compensation
 
----
 
 ## Bill of Materials (BOM)
 
-- `1x M3x16 SHCS screw`
-- `1x 693ZZ bearing`  
+- 1x M3x16 SHCS screw
+- 1x Bondtech RIDGA, its mounting bearings and tensioning thumbscrew and spring
+- 1x 693ZZ bearing
   Make sure the bearing dimensions are:
   - **8 mm OD**
   - **3 mm ID**
-  - **4 mm width**
+  - **4 mm width** Some 693 bearings are 3mm wide which is too narrow, so pay attention to this one!
 
----
 
 ## Assembly & Setup
 
@@ -50,7 +48,6 @@ The built-in supports are anchored in **three places**:
 
 ![IMG_6267](https://github.com/user-attachments/assets/30d1a09b-187c-461d-9364-0b56dbf5f044)
 
----
 
 ### Assembly
 
@@ -64,8 +61,6 @@ The rest of the extruder assembly remains unchanged from the baseline WWBMG desi
 ![IMG_6268](https://github.com/user-attachments/assets/87bba57e-211b-48a9-8bc9-223df750efe3)
 
 
----
-
 ### Setting the Tension
 
 The smooth idler tensioner requires slightly **higher tension** than the standard WWBMG:
@@ -73,7 +68,6 @@ The smooth idler tensioner requires slightly **higher tension** than the standar
 - Tighten the spring tensioner **until the idler arm no longer moves**.
 - Then tighten **3–4 turns further** to set the proper tension. Run some filament through and observe how squished it is against both the teeth and the bearing. You should get a good imprint of the teeth on the filament without the filament flattening much on the bearing side.
 
----
 
 ### Calibration & Use
 

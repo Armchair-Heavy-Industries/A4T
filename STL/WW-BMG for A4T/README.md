@@ -114,9 +114,12 @@ This supports should come away easily and is the only support used.
       2. Install the switch with 2x `M2x10 self tapping screws`
       3. Ensure wiring will run into the wiring channel without exiting the open back of the extruder.
    3. Install the upper sensor
-      1. Place 2x `5.5mm ball bearings` into the bearing tube.
-      2. Install the switch with 2x `M2x10 self tapping screws`
-      3. Ensure wiring will run into the wiring channel without exiting the open back of the extruder.
+      1. Put some filament in place in through the extruder
+      2. Place 2x `5.5mm ball bearings` into the bearing tube.
+      3. Install the switch with 2x `M2x10 self tapping screws`
+         1. The switch should be triggered at this stage, as there is filament in place.
+         2. Test putting in and taking out filament multiple times from various insertion angles by hand to be sure that there are no snags, and that you hear the switch "click" as filament is inserted and removed.
+      4. Ensure wiring will run into the wiring channel without exiting the open back of the extruder.
    4. Run all of the wires up through the upper wiring chanel
    
 3. Install the 2x drive gear bearings that came with the RIDGA (or other) BMG kit

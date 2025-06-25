@@ -73,6 +73,8 @@ See Voron Design instructions to install TAP.<br/>
 | 2   | M3 threaded heat insert                       | Standard Voron spec: M3 x 5 x 4                                                           |
 | 2   | 20mm or 21mm 3mm internal threaded stand off  | To attach toolhead board to the back of the extruder motor and third mounting point on the back of Xol Carriage. <br/>`Length will depend on the motor you use. It needs to line up the toolhead board holder with the back of the Xol Carriage.`                   |
 
+Additional BOM for the WW-BMG extruder for A4T can be found here: [STL/WW-BMG for A4T/README.md](<STL/WW-BMG for A4T/README.md>)
+
 ## Printing parts
 ### Print settings
 Parts are meant to be printed in 0.2mm layer heights, 0.25mm first layer should be OK. Other layer heights will cause the built-in supports to fail or fuse to the printed part.<br/>
@@ -130,6 +132,7 @@ Skinny wire needed, read the BOM.
 | &nbsp; &nbsp; &nbsp;* Two under the extruder mounting points                                                          | <img src='docs/images/install_square_nuts_ext.png' width=150> |
 | &nbsp; &nbsp; &nbsp;* Two in the back behind the exturder `Xol-Carriage only`                                         | <img src='docs/images/install_square_nuts_xol-carriage.png' width=150> |
 | ***Main cowl is ready, time for the extruder***                                                                       |       |
+|If you're building the WW-BMG for A4T see instructions here:|[STL/WW-BMG for A4T/README.md](<STL/WW-BMG for A4T/README.md>)|
 | Make sure you used long enough screws to hold your stepper motor to the extruder and install the 20mm standoffs behind the motor                         | <img src='docs/images/Extruder_standoffs.png' width=150> |
 | Attach the toolhead board mount and toolhead board to the standoffs `THB mounts, except for Sherpa-Mini, need 2x M3 heatsets installed before this step` | <img src='docs/images/Extruder_standoffs_thb.png' width=150> <img src='docs/images/Extruder_standoffs_thb_pcb.png' width=150>  |
 | Put the Extruder Adapter in place on top of the cowl<br/>`*Not used with Sherpa-Mini or on UHF hotend cowls` <br/><br/>`⚠️ Don't forget the PTFE tube between extruder and hotend`        | <img src='docs/images/extruder_adapter.png' width=150> |

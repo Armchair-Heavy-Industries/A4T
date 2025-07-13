@@ -24,8 +24,8 @@ Choose your own adventure
 - 1x M3x25 BHCS screw
 - 2x DIN562 M3 Square nut
 - 1x Bondtech RIDGA (optional but highly recommended), its mounting bearings and tensioning thumbscrew with spring and nylon washer
-- 1x M3x16 SHCS `to attach NEMA 17 stepper motor. Length correct if using threaded stand-offs for toolhead board mounting.`
-- 1x M3x12 SHCS `to attach NEMA 17 stepper motor. Length correct if using threaded stand-offs for toolhead board mounting.`
+- 1x M3x16 SHCS `to attach NEMA 14 pancake stepper motor. Length correct if using threaded stand-offs for toolhead board mounting.`
+- 1x M3x12 SHCS `to attach NEMA 14 pancake motor. Length correct if using threaded stand-offs for toolhead board mounting.`
 - 1x ECAS 4mm `⚠️ Remove both the black plastic and rubber parts from the bottom.`
 
 ### BMG 2nd drive gear tension arm (parts usually included with BMG gear kits)
@@ -136,7 +136,7 @@ This supports should come away easily and is the only support used.
    1. Align the rear bearing over the back of the main gear shaft
    2. Requires a slight twist to lock into place
 
-7. Attache the NEMA17 stepper motor
+7. Attache the NEMA14 pancake stepper motor
    1. 1x `M3x16 SHCS` in the upper, non-adjustable, screw hole
    2. 1x `M3x12 SHCS` in the lower screw slot
       1. Adjust backlash apporpriately and tighten both screws

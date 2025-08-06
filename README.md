@@ -71,6 +71,7 @@ See Voron Design instructions to install TAP.<br/>
 | 4   | Hotend screws                                 | Should come with your hotend. Dragon/Rapido usually use M2.5 x 8mm SHCS                   |
 | 1   | Extruder                                      | Recommended Extruder:<br/>* Modified WW-BMG with Bondtech RIDGA v2. ([Details here](STL/WW-BMG%20for%20A4T/))<br/> Alternatives: <br/>*Sherpa-Mini  <br/>*VZ-Hextrudort-Low <br/>*LGX-Lite <br/>*E3D Roto Vitamins <br/>*Wrist-Watch G2 <br/>*Orbiter 2.0 <br/> <br/>`⚠️ Sherpa-Mini not supported with UHF hotends`   |
 | 2   | 20mm or 21mm 3mm internal threaded stand off  | To attach toolhead board to the back of the extruder motor and third mounting point on the back of Xol Carriage. <br/>`Length will depend on the motor you use. It needs to line up the toolhead board holder with the back of the Xol Carriage.`                   |
+| 2   | M3 Threaded heatset inserts  | Standard Voron spec M3x4x5 `For the toolhead board mount`                   |
 
 Additional BOM for the WW-BMG extruder for A4T can be found here: [STL/WW-BMG for A4T/README.md](<STL/WW-BMG for A4T/README.md>)
 

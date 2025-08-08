@@ -45,11 +45,7 @@ This version of the tension arm uses a bearing instead of the toothed secondary 
 
 ### Dual filament sensor main body
 - 2x D2F or equivalent microswitch `Connecting pins need to be trimmed to approximately 2mm before soldering wires`
-- 2x 5.5mm ball bearing
-- 1x MR63zz bearing
-  - **6 mm OD**
-  - **3 mm ID**
-  - **2.5 mm width**
+- 2x 6x3mm disc magnet (`or any equivalent sized 6mm diameter and up to 3mm thicknes part like MR63zz bearing`)
 - Thin wire 28 or 26 AWG `enough to connect pins back to required toolhead board or MCU`
 
 ### Standard extruder
@@ -59,7 +55,7 @@ This version of the tension arm uses a bearing instead of the toothed secondary 
 - Standard extruder: [Standard (no sensor)](<Standard (no sensor)>)
   - print both parts
 - Dual Sensor extruder: [Dual Sensor](<Dual Sensor>)
-  - Print 1x Main Body part `The "Bearing -0.1" and "Bearing -0.2" main body parts move the switch closer to the filament path. May be usefull if top sensor is not falsly triggering when filament is in place"
+  - Print 1x Main Body part `"A4T - WWBMG - Main_Body [Sherpa-Mini spacing] Dual Sensor - Crossbow.stl" is for use with the Crossbow filament cutter.`
   - Print 1x Motor Plate part
 - Tension Arm
   - Print either the BMG_Idler or Smooth_Idler tension arm part
@@ -107,15 +103,15 @@ This supports should come away easily and is the only support used.
 1. Install ECAS adapter into the top of the main body part `Make sure you have removed both the rubber base and black plastic ring from the bottom`
 
 2. Filament Sensors (Dual sensor version only)<br/>
-   <img src='../../docs/images/WW-BMG_for_A4T/WW-BMG_A4T.40.png' width=290><img src='../../docs/images/WW-BMG_for_A4T/WW-BMG_A4T.35.png' width=290><br/>
+   <img src='../../docs/images/WW-BMG_for_A4T/WW-BMG_A4T.45.png' width=290><img src='../../docs/images/WW-BMG_for_A4T/WW-BMG_A4T.35.png' width=290><br/>
    1. Solder wires to your two switches `NO or NC wiring will depend on your MMU or Klipper configuration. Refer to MMU or Klipper for direction`
    2. Start with the lower sensor
-      1. Place the `MR63zz` Bearing into the slot.
+      1. Place the `6x3mm disc magnet` into the slot.
       2. Install the switch with 2x `M2x10 self tapping screws`
       3. Ensure wiring will run into the wiring channel without exiting the open back of the extruder.
    3. Install the upper sensor
       1. Put some filament in place in through the extruder
-      2. Place 2x `5.5mm ball bearings` into the bearing tube.
+      2. Place 2x `6x3mm disc magnet` into the upper slot, followed by the printed bumper part. `Use a larger or smaller bumper part to adjust the switch trigger point. It is very important to install the bumper in the correct orientation with the concave curve towards the magnet.`
       3. Install the switch with 2x `M2x10 self tapping screws`
          1. The switch should be triggered at this stage, as there is filament in place.
          2. Test putting in and taking out filament multiple times from various insertion angles by hand to be sure that there are no snags, and that you hear the switch "click" as filament is inserted and removed.

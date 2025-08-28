@@ -111,7 +111,7 @@ This supports should come away easily and is the only support used.
       3. Ensure wiring will run into the wiring channel without exiting the open back of the extruder.
    3. Install the upper sensor
       1. Put some filament in place in through the extruder
-      2. Place 2x `6x3mm disc magnet` into the upper slot, followed by the printed bumper part. `Use a larger or smaller bumper part to adjust the switch trigger point. It is very important to install the bumper in the correct orientation with the concave curve towards the magnet.`
+      2. Place the other `6x3mm disc magnet` into the upper slot, followed by the printed bumper part. `Use a larger or smaller bumper part to adjust the switch trigger point. It is very important to install the bumper in the correct orientation with the concave curve towards the magnet.`
       3. Install the switch with 2x `M2x10 self tapping screws`
          1. The switch should be triggered at this stage, as there is filament in place.
          2. Test putting in and taking out filament multiple times from various insertion angles by hand to be sure that there are no snags, and that you hear the switch "click" as filament is inserted and removed.

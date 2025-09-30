@@ -6,14 +6,14 @@ This version has been made compatible with A4T by removing a small notch from th
 - Multiple filament path improvements
 - Options added for:
   - Smooth bearing idler, and
-  - Dual fialment sensors
+  - Dual filament sensors
 
 --------------------
 
 ## Multiple options for WW-BMG for A4T
 Choose your own adventure
 ### * Standard Extruder
-### * Dual fialment sensor
+### * Dual filament sensor
 ### * Smooth bearing idler or BMG 2nd drive gear tension arms
 
 --------------------

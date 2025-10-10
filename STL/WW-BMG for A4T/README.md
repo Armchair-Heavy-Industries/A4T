@@ -6,14 +6,14 @@ This version has been made compatible with A4T by removing a small notch from th
 - Multiple filament path improvements
 - Options added for:
   - Smooth bearing idler, and
-  - Dual fialment sensors
+  - Dual filament sensors
 
 --------------------
 
 ## Multiple options for WW-BMG for A4T
 Choose your own adventure
 ### * Standard Extruder
-### * Dual fialment sensor
+### * Dual filament sensor
 ### * Smooth bearing idler or BMG 2nd drive gear tension arms
 
 --------------------
@@ -41,12 +41,12 @@ This version of the tension arm uses a bearing instead of the toothed secondary 
   - **3 mm ID**
   - **4 mm width** `Some 693 bearings are 3mm wide which is too narrow, so pay attention to this one!`
 - 1x M3x12 BHCS
-- 4x M2x10 self tapping screw
 
 ### Dual filament sensor main body
 - 2x D2F or equivalent microswitch `Connecting pins need to be trimmed to approximately 2mm before soldering wires`
 - 2x 6x3mm disc magnet (`or any equivalent sized 6mm diameter and up to 3mm thicknes part like MR63zz bearing`)
 - Thin wire 28 or 26 AWG `enough to connect pins back to required toolhead board or MCU`
+- 4x M2x10 self tapping screw
 
 ### Standard extruder
 `No extra parts`

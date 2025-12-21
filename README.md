@@ -81,6 +81,13 @@ See Voron Design instructions to install TAP.<br/>
 Additional BOM for the WW-BMG extruder for A4T can be found here: [STL/WW-BMG for A4T/README.md](<STL/WW-BMG for A4T/README.md>)
 
 ## Printing parts
+
+> [!TIP] 
+> ### Printed Parts Configurator<br/>
+> <img src='docs/images/configurator.png' width=200><br>
+> A great way to understand which files to print is by using the configurator at <a href="https://a4t.dwtas.net/">https://a4t.dwtas.net/</a><br><br>
+> That configurator is new and not heavily tested, if you have issues, there is this original configurator by <a href="https://github.com/Corunir">Corunir</a>: <a href="https://a4t.wizards-enclave.net/">https://a4t.wizards-enclave.net/</a>
+
 ### Print settings
 Parts are meant to be printed in 0.2mm layer heights, 0.25mm first layer should be OK. Other layer heights will cause the built-in supports to fail or fuse to the printed part.<br/>
 Print settings will depend on your printer setup / filament used / phase of the moon/etc.<br/>
@@ -89,12 +96,7 @@ The parts are not pre-scaled for any particular filament type. You will need to 
 General voron-like settings are a good starting point for 0.4mm wall widths (four walls, 5 top/bottom layers and 40% infill).<br/>
 The print setup was tested with 0.5mm nozzle printing 0.55mm line widths with 3 walls and 40% infill with good results.<br/>
 
-You're printing a toolhead, not a trinket or a toy. You should be aiming for high strength with strong layer adhesion. I.e. print it slower/hotter if you have bad layer adhesion. It doesn't matter if it takes over 2 hours to print the main body.<br/>
-
-> [!TIP] 
-> ### Printed Parts Configurator<br/>
-> A great way to understand which files to print is by using this amazing configurator from <a href="https://github.com/Corunir">Corunir</a>: <a href="https://a4t.wizards-enclave.net/">https://a4t.wizards-enclave.net/</a>
-
+You're printing a toolhead, not a trinket or a toy. You should be aiming for high strength with strong layer adhesion. I.e. print it slower/hotter if you have bad layer adhesion. It doesn't matter if it takes over 2 hours to print the main body.
 <br/><br/><br/><br/>
 
 > [!WARNING]

@@ -21,9 +21,9 @@ A4T is built around the following constraints:
 * Built for Xol-Carriage - can work with Voron Tap / Standard Voron CW2 carriage.
 
 > [!TIP] 
-> ### NEW: Crossbow Filament Cutter<br/>
-> Make A4T the perfect MMU toolhead with the Crossbow filament cutter: [Crossbow Cutter GitHub Repo](https://github.com/DW-Tas/Crossbow-Filament-Cutter)<br/>
-> <img src='docs/images/crossbow_cutter.png' width=150 /><img src='docs/images/crossbow_cutter_render.png' width=100 />
+> ### NEW: Crossbow Filament Cutter And EMU MMU<br/>
+> Make A4T part of a complete MMU system with the [Crossbow Filament Cutter](https://github.com/DW-Tas/Crossbow-Filament-Cutter) and [EMU](https://github.com/DW-Tas/EMU)<br/>
+> <img src='docs/images/crossbow_cutter.png' width=100 /><img src='docs/images/emu-render.png' width=120 />
 
 ## Pre-requisites
 A printer that fits either Xol carriage, or a standard voron CW2 or Tap carriage. `NOT cartographer CNC carriage (see warning below)`<br/>

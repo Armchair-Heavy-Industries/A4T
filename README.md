@@ -23,7 +23,7 @@ A4T is built around the following constraints:
 > [!TIP] 
 > ### NEW: Crossbow Filament Cutter And EMU MMU<br/>
 > Make A4T part of a complete MMU system with the [Crossbow Filament Cutter](https://github.com/DW-Tas/Crossbow-Filament-Cutter) and [EMU](https://github.com/DW-Tas/EMU)<br/>
-> <img src='docs/images/crossbow_cutter.png' width=100 /><img src='docs/images/emu-render.png' width=120 />
+> <a href="https://github.com/DW-Tas/Crossbow-Filament-Cutter"><img src='docs/images/crossbow_cutter.png' width=100 /></a><a href="https://github.com/DW-Tas/EMU"><img src='docs/images/emu-render.png' width=120 /></a>
 
 ## Pre-requisites
 A printer that fits either Xol carriage, or a standard voron CW2 or Tap carriage. `NOT cartographer CNC carriage (see warning below)`<br/>

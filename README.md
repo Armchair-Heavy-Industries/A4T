@@ -21,9 +21,9 @@ A4T is built around the following constraints:
 * Built for Xol-Carriage - can work with Voron Tap / Standard Voron CW2 carriage.
 
 > [!TIP] 
-> ### NEW: Crossbow Filament Cutter<br/>
-> Make A4T the perfect MMU toolhead with the Crossbow filament cutter: [Crossbow Cutter GitHub Repo](https://github.com/DW-Tas/Crossbow-Filament-Cutter)<br/>
-> <img src='docs/images/crossbow_cutter.png' width=150 /><img src='docs/images/crossbow_cutter_render.png' width=100 />
+> ### NEW: Crossbow Filament Cutter And EMU MMU<br/>
+> Make A4T part of a complete MMU system with the [Crossbow Filament Cutter](https://github.com/DW-Tas/Crossbow-Filament-Cutter) and [EMU](https://github.com/DW-Tas/EMU)<br/>
+> <a href="https://github.com/DW-Tas/Crossbow-Filament-Cutter"><img src='docs/images/crossbow_cutter.png' width=100 /></a><a href="https://github.com/DW-Tas/EMU"><img src='docs/images/emu-render.png' width=120 /></a>
 
 ## Pre-requisites
 A printer that fits either Xol carriage, or a standard voron CW2 or Tap carriage. `NOT cartographer CNC carriage (see warning below)`<br/>
@@ -67,7 +67,7 @@ See Voron Design instructions to install TAP.<br/>
 | 2   | M3 x 6 BHCS or Waferhead screw                | Either of these screw types work. The important part is 6mm thread <br/> `This is only for Xol Carriage. If you use Tap or other Voron carriage, you already have longer SHCS where the hotend adapter slots under` <img src='docs/images/xol_carriage_screws.png' width=320 alt="tap screws" align='right'> | 
 | 2   | M3 x 50 SHCS                                  | Bottom cowling mounting screws. The same as are in the bottom of Stealthburner            |
 | 2   | * M3 x 16 SHCS or BHCS (WWBMG)<br/><br/>* M3 x 12 SHCS or BHCS (Sherpa-Mini)<br/><br/>* 1xM3 x 20 + 1xM3 x 16 SHCS or BHCS (WWG2)                         | Attach extruder to cowling                 |
-| 2   | 4010 Blower Fan                               | Recommended blower: GDStime 12,000 RPM 24v. (<a href="https://www.aliexpress.com/item/1005005094153190.html">Ali Express</a>) <br/><br/>`⚠️ BERSERKER VINDR 4010 and HoneyBadger 9K 4010 fans known to be incompatible`                                                       |
+| 2   | 4010 Blower Fan                               | Recommended blower: GDStime 12,000 RPM 24v. (<a href="https://www.aliexpress.com/item/1005005094153190.html">Ali Express</a>) <br/><br/>`⚠️ HoneyBadger 9K 4010 fans known to be incompatible (12K version is OK).`<br>~~`BERSERKER VINDR 4010`~~ `Newer BERSERKER 4010s have an updated design and should be OK`                                                       |
 | 1   | 2510 Axial Fan                                | Recommended fan: Delta Electronics 15,000 RPM 5v ASB02505SHA-AY6B (<a href="https://www.digikey.com/en/products/detail/delta-electronics/ASB02505SHA-AY6B/7491489">DigiKey</a>) <br/><br/> `⚠️ GDStime 2510 fans have been measuring as ~10.4mm thick. A workaround is to "sink" the hotend fand duct 0.4mm into the print bed with the slicer before printing.`|
 | 3   | Neopixel LED PCB                              | The same kind as used in Stealthburner. Get the solder pad version. <br/> `Wiring diagram (click to enlarge) ---->`  <img src='docs/images/LED_wiring_order.jpg' width=60 alt="LEDs" align='right'>  <br/>`Different length wires for different Cowling types`                    |
 | 9   | Lengths of 28 AWG or 26 AWG wire              | To make the LED harness      |
@@ -81,6 +81,13 @@ See Voron Design instructions to install TAP.<br/>
 Additional BOM for the WW-BMG extruder for A4T can be found here: [STL/WW-BMG for A4T/README.md](<STL/WW-BMG for A4T/README.md>)
 
 ## Printing parts
+
+> [!TIP] 
+> ### Printed Parts Configurator<br/>
+> <img src='docs/images/configurator.png' width=200><br>
+> A great way to understand which files to print is by using the configurator at <a href="https://a4t.dwtas.net/">https://a4t.dwtas.net/</a><br><br>
+> That configurator is new and not heavily tested, if you have issues, there is this original configurator by <a href="https://github.com/Corunir">Corunir</a>: <a href="https://a4t.wizards-enclave.net/">https://a4t.wizards-enclave.net/</a>
+
 ### Print settings
 Parts are meant to be printed in 0.2mm layer heights, 0.25mm first layer should be OK. Other layer heights will cause the built-in supports to fail or fuse to the printed part.<br/>
 Print settings will depend on your printer setup / filament used / phase of the moon/etc.<br/>
@@ -89,12 +96,7 @@ The parts are not pre-scaled for any particular filament type. You will need to 
 General voron-like settings are a good starting point for 0.4mm wall widths (four walls, 5 top/bottom layers and 40% infill).<br/>
 The print setup was tested with 0.5mm nozzle printing 0.55mm line widths with 3 walls and 40% infill with good results.<br/>
 
-You're printing a toolhead, not a trinket or a toy. You should be aiming for high strength with strong layer adhesion. I.e. print it slower/hotter if you have bad layer adhesion. It doesn't matter if it takes over 2 hours to print the main body.<br/>
-
-> [!TIP] 
-> ### Printed Parts Configurator<br/>
-> A great way to understand which files to print is by using this amazing configurator from <a href="https://github.com/Corunir">Corunir</a>: <a href="https://a4t.wizards-enclave.net/">https://a4t.wizards-enclave.net/</a>
-
+You're printing a toolhead, not a trinket or a toy. You should be aiming for high strength with strong layer adhesion. I.e. print it slower/hotter if you have bad layer adhesion. It doesn't matter if it takes over 2 hours to print the main body.
 <br/><br/><br/><br/>
 
 > [!WARNING]
@@ -135,7 +137,7 @@ Skinny wire needed, read the BOM.
 | Attach your hotend                                                                                                    | <img src='docs/images/install_hotend.png' width=150> |
 | Put all the square nuts in their places for later                                                                     | <img src='docs/images/install_square_nuts.png' width=150> |
 | &nbsp; &nbsp; &nbsp;* Two under the extruder mounting points                                                          | <img src='docs/images/install_square_nuts_ext.png' width=150> |
-| &nbsp; &nbsp; &nbsp;* Two in the back behind the exturder `Xol-Carriage only`                                         | <img src='docs/images/install_square_nuts_xol-carriage.png' width=150> |
+| &nbsp; &nbsp; &nbsp;* Two in the back behind the extruder `Xol-Carriage only`                                         | <img src='docs/images/install_square_nuts_xol-carriage.png' width=150> |
 | ***Main cowl is ready, time for the extruder***                                                                       |       |
 |If you're building the WW-BMG for A4T see instructions here:|[STL/WW-BMG for A4T/README.md](<STL/WW-BMG for A4T/README.md>)|
 | Make sure you used long enough screws to hold your stepper motor to the extruder and install the 20mm standoffs behind the motor                         | <img src='docs/images/Extruder_standoffs.png' width=150> |

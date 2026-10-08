@@ -21,11 +21,10 @@ A4T is built around the following constraints:
 * Built for Xol-Carriage - can work with Voron Tap / Standard Voron CW2 carriage.
 
 > [!TIP]
-> Looking for A4Tv2? Early development is publicly available at [DW Tas Github](https://github.com/DW-Tas/A4Tv2)<br>
-> <a href="https://github.com/DW-Tas/A4Tv2"><img src='/DW-Tas/A4Tv2/blob/main/docs/images/A4Tv2.png' width=100></a>
+> <a href="https://github.com/DW-Tas/A4Tv2"><img src='docs/images/A4Tv2.png' width=150></a><br>**NEW:** Looking for A4Tv2? Early development is publicly available at [DW Tas Github](https://github.com/DW-Tas/A4Tv2)
 
 > [!TIP] 
-> ### NEW: Crossbow Filament Cutter And EMU MMU<br/>
+> ### Crossbow Filament Cutter And EMU MMU<br/>
 > Make A4T part of a complete MMU system with the [Crossbow Filament Cutter](https://github.com/DW-Tas/Crossbow-Filament-Cutter) and [EMU](https://github.com/DW-Tas/EMU)<br/>
 > <a href="https://github.com/DW-Tas/Crossbow-Filament-Cutter"><img src='docs/images/crossbow_cutter.png' width=100 /></a><a href="https://github.com/DW-Tas/EMU"><img src='docs/images/emu-render.png' width=120 /></a>
 

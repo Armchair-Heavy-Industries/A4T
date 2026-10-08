@@ -20,6 +20,10 @@ A4T is built around the following constraints:
 * Neopixel LEDs with good part lighting from in front of the nozzle.
 * Built for Xol-Carriage - can work with Voron Tap / Standard Voron CW2 carriage.
 
+> [!TIP]
+> Looking for A4Tv2? Early development is publicly available at [DW Tas Github](https://github.com/DW-Tas/A4Tv2)<br>
+> <a href="https://github.com/DW-Tas/A4Tv2"><img src='/DW-Tas/A4Tv2/blob/main/docs/images/A4Tv2.png' width=100></a>
+
 > [!TIP] 
 > ### NEW: Crossbow Filament Cutter And EMU MMU<br/>
 > Make A4T part of a complete MMU system with the [Crossbow Filament Cutter](https://github.com/DW-Tas/Crossbow-Filament-Cutter) and [EMU](https://github.com/DW-Tas/EMU)<br/>
@@ -185,9 +189,11 @@ Licenced kits for A4T are available from the following manufucturers:<br/>
 * Corunir for the configurator wizard
 
 > [!TIP] 
-> ### You can help support the development of Armchair Projects.<br/>
-> Donate at https://ko-fi.com/armchair<br/>
-[![ko-fi](docs/images/Ko-fi_TextLogo.png)](https://ko-fi.com/armchair)
+> ### You can help support the development of this project.<br/>
+> Donate at https://ko-fi.com/dwtas<br/>
+[![ko-fi](docs/images/Ko-fi_TextLogo.png)](https://ko-fi.com/dwtas)
+<br/><br/>
+
 
 ## Enjoy using A4T
 This work is licensed under a

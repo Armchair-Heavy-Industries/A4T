@@ -48,10 +48,11 @@ See Voron Design instructions to install TAP.<br/>
 
 > [!WARNING]
 > ### Front Idlers  
-> A4T can collide with the stock voron front idlers for Trident and 2.4 when the toolhead is in the front corners of the build area. This can cause issues with the homing sequence when homing X if the toolhead is at the front of the gantry on Y. <br/><br/>
+> A4T can collide with the stock voron front idlers for older Trident (pre-R2) and current v2.4 when the toolhead is in the front corners of the build area. This can cause issues with the homing sequence when homing X if the toolhead is at the front of the gantry on Y. <br/><br/>
 > Fully compatible idlers:<br/>
 > * clee's [BFI (Beefy Front Idlers)](https://github.com/clee/VoronBFI)  <br/>
-> * Ramalama2's [Front Idlers](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers)  
+> * Ramalama2's [Front Idlers](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers)<br>
+> * Voron Trident R2 stock idlers  
 
 <br/><br/>
 
